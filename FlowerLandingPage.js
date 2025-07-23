@@ -68,6 +68,46 @@ export default function FlowerlandingPage() {
           </View>
             </ScrollView>   
         </View>
+
+
+        <View style={styles.featuredSection}>
+            <Text style={styles.sectionTitle}>Mother's Day Special</Text>
+            <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+            <View style={styles.flowerCard}>
+            <Image
+              source={{ uri: 'https://fyf.tac-cdn.net/images/v2020/gift-guides/mothers-day-flowers.jpg?auto=webp&quality=50' }}
+              style={styles.flowerImage}
+            />
+            <Text style={styles.flowerTitle}>Rose and Lily</Text>
+          </View>
+          <View style={styles.flowerCard}>
+            <Image
+              source={{ uri: 'https://fyf.tac-cdn.net/images/products/small/V7012.jpg?auto=webp&quality=80&width=590' }}
+              style={styles.flowerImage}
+            />
+            <Text style={styles.flowerTitle}>Blue Skies and Sunshine</Text>
+          </View>
+
+          <View style={styles.flowerCard}>
+            <Image
+              source={{ uri: 'https://fyf.tac-cdn.net/images/products/small/T17M200-2.jpg?auto=webp&quality=80&width=590' }}
+              style={styles.flowerImage}
+            />
+            <Text style={styles.flowerTitle}>Lush Lavender Bouquet</Text>
+          </View>
+
+          <View style={styles.flowerCard}>
+            <Image
+              source={{ uri: 'https://fyf.tac-cdn.net/images/products/large/T55-2.jpg?auto=webp&quality=80&width=690' }}
+              style={styles.flowerImage}
+            />
+            <Text style={styles.flowerTitle}>Serenity and Bliss</Text>
+          </View>
+
+          
+          
+            </ScrollView>   
+        </View>
         <View style={styles.buttonContainer}>
             <TouchableOpacity style={styles.button} onPress={() => alert('Shop Now')}>
             <Text style={styles.buttonText}>Shop Now</Text>
