@@ -70,6 +70,13 @@ export default function FlowerlandingPage() {
         </View>
 
 
+        
+        <View style={styles.buttonContainer}>
+            <TouchableOpacity style={styles.button} onPress={() => alert('Shop Now')}>
+            <Text style={styles.buttonText}>Shop Now</Text>
+            </TouchableOpacity>
+        </View>
+
         <View style={styles.featuredSection}>
             <Text style={styles.sectionTitle}>Mother's Day Special</Text>
             <ScrollView horizontal showsHorizontalScrollIndicator={false}>
@@ -108,6 +115,7 @@ export default function FlowerlandingPage() {
           
             </ScrollView>   
         </View>
+
         <View style={styles.buttonContainer}>
             <TouchableOpacity style={styles.button} onPress={() => alert('Shop Now')}>
             <Text style={styles.buttonText}>Shop Now</Text>
